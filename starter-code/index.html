@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Presets </title>
+    <style>
+        
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&display=swap');
+
+    :root {
+
+      
+  --neutral-900: hsl(233, 18%, 9%);
+  --neutral-800: hsl(235, 14%, 15%);
+  --neutral-700: hsl(235, 13%, 19%);
+  --neutral-600: hsl(234, 14%, 29%);
+  --neutral-200: hsl(240, 26%, 92%);
+  --neutral-100: hsl(240, 24%, 96%);
+  --neutral-0: hsl(0, 0%, 100%);
+
+  
+  --blue-400: hsl(274, 90%, 80%);
+  --blue-500: hsl(274, 90%, 73%);
+
+  
+  --yellow-500: hsl(37, 100%, 50%);
+
+  
+  --orange-500: hsl(15, 99%, 67%);
+  --orange-800: hsl(15, 99%, 43%);
+
+
+  --spacing-0: 0px;
+  --spacing-025: 2px;
+  --spacing-050: 4px;
+  --spacing-075: 6px;
+  --spacing-100: 8px;
+  --spacing-150: 12px;
+  --spacing-200: 16px;
+  --spacing-250: 20px;
+  --spacing-300: 24px;
+  --spacing-400: 32px;
+  --spacing-500: 40px;
+  --spacing-600: 48px;
+  --spacing-800: 64px;
+  --spacing-1000: 80px;
+
+
+  --radius-0: 0px;
+  --radius-4: 4px;
+  --radius-6: 6px;
+  --radius-8: 8px;
+  --radius-10: 10px;
+  --radius-12: 12px;
+  --radius-16: 16px;
+  --radius-20: 20px;
+  --radius-24: 24px;
+  --radius-full: 999px;
+}
+
+  
+.preset-container{
+  
+  --color: var(--neutral-900);
+  --color: var(--neutral-600);
+  --color: var(--neutral-700);
+  --color: var(--neutral-200);
+  --color: var(--neutral-0);
+   --color: var(--neutral-100); 
+  
+  --text-preset-1-font-family: 'DM Sans', sans-serif;
+  /* --text-preset-1-font-weight: ; */
+  --text-preset-1-font-size: 64px;
+  --text-preset-1-line-height: 100%;
+  --text-preset-1-letter-spacing: -1px;
+  
+
+
+  
+  --text-preset-1-mobile-font-size: 40px;
+  --text-preset-1-mobile-line-height: 100%;
+  --text-preset-1-mobile-letter-spacing: -1px;
+
+  
+  /* --text-preset-2-font-family: 'DM Sans', sans-serif; */
+  /* --text-preset-2-font-weight: ; */
+  --text-preset-2-font-size: 24px;
+  --text-preset-2-line-height: 130%; 
+  --text-preset-2-letter-spacing: -1px;
+
+  /* --text-preset-3-font-family: 'DM Sans', sans-serif; */
+  /* --text-preset-3-font-weight: ; */
+  --text-preset-3-font-size: 20px;
+  --text-preset-3-line-height: 140%;
+  --text-preset-3-letter-spacing: -0.6px;
+
+
+  /* --text-preset-4-font-family: 'DM Sans', sans-serif; */
+  /* --text-preset-4-font-weight: ; */
+  --text-preset-4-font-size: 16px;
+  --text-preset-4-line-height: 130%;
+  --text-preset-4-letter-spacing: -0.6px;
+
+}
+
+
+.text-preset-1 {
+  font-family: var(--text-preset-1-font-family);
+  /* font-weight: var(--text-preset-1-font-weight); */
+  font-size: var(--text-preset-1-font-size);
+  line-height: var(--text-preset-1-line-height);
+  letter-spacing: var(--text-preset-1-letter-spacing);
+  color: var(--text-preset-1-color);
+  spacing: var(--text-preset-1)
+  radius: var(--text-preset-1)
+}
+
+.text-preset-1-mobile {
+  font-family: var(--text-preset-1-font-family);
+  /* font-weight: var(--text-preset-1-font-weight); */
+  font-size: var(--text-preset-1-mobile-font-size);
+  line-height: var(--text-preset-1-mobile-line-height);
+  letter-spacing: var(--text-preset-1-mobile-letter-spacing);
+   color: var(--text-preset-1-mobile-color);
+   spacing: var(--text-preset-1-mobile)
+  radius: var(--text-preset-1-mobile)
+}
+
+
+.text-preset-2 {
+  font-family: var(--text-preset-2-font-family);
+  /* font-weight: var(--text-preset-2-font-weight); */
+  font-size: var(--text-preset-2-font-size);
+  line-height: var(--text-preset-2-line-height);
+  letter-spacing: var(--text-preset-2-letter-spacing);
+  color: var(--text-preset-2-color);
+  spacing: var(--text-preset-3)
+  radius: var(--text-preset-3)
+}
+
+
+.text-preset-3 {
+  font-family: var(--text-preset-3-font-family);
+  /* font-weight: var(--text-preset-3-font-weight); */
+  font-size: var(--text-preset-3-font-size);
+  line-height: var(--text-preset-3-line-height);
+  letter-spacing: var(--text-preset-3-letter-spacing);
+  color: var(--text-preset-3-color);
+  spacing: var(--text-preset-3)
+  radius: var(--text-preset-3)
+}
+
+.text-preset-4 {
+  font-family: var(--text-preset-4-font-family);
+  /* font-weight: var(--text-preset-4-font-weight); */
+  font-size: var(--text-preset-4-font-size);
+  line-height: var(--text-preset-4-line-height);
+  letter-spacing: var(--text-preset-4-letter-spacing);
+  color: var(--text-preset-4-color);
+  spacing: var(--text-preset-4)
+  radius: var(--text-preset-4)
+}
+
+
+
+@media (min-width: 640px) {
+  .text-preset-1 {
+    font-size: var(--text-preset-1-mobile-font-size);
+    line-height: var(--text-preset-1-mobile-line-height);
+    letter-spacing: var(--text-preset-1-mobile-letter-spacing);
+    color: var(--text-preset-1-mobile-color);
+    spacing: var(--text-preset-1)
+    radius: var(--text-preset-1)
+}
+  }
+
+        
+    </style>
+</head>
+<body>
+    <div class="preset-container">
+      <div class="text-preset-1">
+        <h1>The quick brown fox jumps over the lazy dog</h1>
+      </div>
+      
+    </div>
+
+
+    <div class="preset-container">
+        <div class="text-preset-2"><h2>The quick brown fox jumps over the lazy dog.</h2></div>
+              
+        </div>
+    </div>
+
+    <div class="preset-container">
+        <div class="text-preset-3"><h3>The quick brown fox jumps over the lazy dog.</h3></div>
+           
+        </div>
+    </div>
+
+    <div class="preset-container">
+        <div class="text-preset-4"> <h4>The quick brown fox jumps over the lazy dog.</h4></div>
+           
+        </div>
+    </div>
+
+    
+</body>
+</html>
